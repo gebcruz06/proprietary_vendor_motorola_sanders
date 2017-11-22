@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/sanders/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/motorola/sanders/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/motorola/sanders/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/motorola/sanders/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/sanders/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/sanders/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/sanders/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -1158,7 +1158,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+    vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     TimeService \
