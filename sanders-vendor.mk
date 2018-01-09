@@ -184,7 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/sanders/proprietary/lib/libimage_type_recognition.so:system/lib/libimage_type_recognition.so \
     vendor/motorola/sanders/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
-    vendor/motorola/sanders/proprietary/lib/libjson.so.so:system/lib/libjson.so \
+    vendor/motorola/sanders/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/motorola/sanders/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/sanders/proprietary/lib/libmbs.so:system/lib/libmbs.so \
@@ -220,7 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/motorola/sanders/prorrietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
