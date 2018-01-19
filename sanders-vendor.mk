@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/sanders/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/sanders/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+		vendor/motorola/sanders/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/sanders/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/sanders/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/motorola/sanders/proprietary/bin/tftp_server:system/bin/tftp_server \
