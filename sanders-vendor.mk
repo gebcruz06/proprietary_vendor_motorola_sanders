@@ -92,6 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/sanders/proprietary/etc/firmware/focaltech-djn-ft5436-06-0001-sanders.bin:system/etc/firmware/focaltech-djn-ft5436-06-0001-sanders.bin \
+    vendor/motorola/sanders/proprietary/etc/firmware/focaltech-tianma-ft5436-0a-0001-sanders.bin:system/etc/firmware/focaltech-tianma-ft5436-0a-0001-sanders.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
