@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/venodr/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.camera2.xml:system/vendor/etc/permissions/com.motorola.camera2.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/vendor/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.dpmframework.xml:system/vendor/etc/permissions/com.qti.dpmframework.xml \
@@ -149,7 +150,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/sanders/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/sanders/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/sanders/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/motorola/sanders/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/motorola/sanders/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/motorola/sanders/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/motorola/sanders/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/motorola/sanders/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
+    vendor/motorola/sanders/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/motorola/sanders/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
+    vendor/motorola/sanders/proprietary/lib/libimage_type_recognition.so:system/lib/libimage_type_recognition.so \
+    vendor/motorola/sanders/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdtvtuner.so:system/vendor/lib/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libdtvtuner.so:system/vendor/lib64/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
